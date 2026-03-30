@@ -2,11 +2,11 @@ version: "3.8"
 
 services:
   app:
-    build: 
+    build:
       context: .
       dockerfile: Dockerfile.production
     working_dir: /app
-    image: mdshishov/devops-for-developers-project-74:latest
+    image: oligkondr/devops-for-developers-project-74:latest
     command: ["make", "test"]
     depends_on:
       db:
