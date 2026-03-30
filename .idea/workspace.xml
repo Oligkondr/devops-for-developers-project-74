@@ -5,12 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d3b6b68-1ac6-441c-b275-ad6b98d35eb1" name="Changes" comment="Add app 2">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/devops-for-developers-project-74.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/.github/workflows/nodejs.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/.sequelizerc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/__tests__/app.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/config/config.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/db/migrations/20240423145518-create-article.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/db/models/article.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/db/models/index.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/db/seeders/20240423145729-Article.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/locales/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/locales/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/routes/articles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/routes/root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/views/articles/edit.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/views/articles/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/views/articles/new.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/views/articles/show.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/views/layouts/application.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/views/mixins/article.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/views/mixins/forms.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/server/views/root/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1774890750725</updated>
-      <workItem from="1774890752050" duration="3860000" />
+      <workItem from="1774890752050" duration="5001000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
